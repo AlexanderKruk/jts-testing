@@ -10,7 +10,7 @@ const sites = [
 
 const googleSearch = (sites, searchInput) => {
   const matches = sites.filter((item) => item.includes(searchInput));
-  return matches.lenght > 3 ? matches.slice(0, 3) : matches;
+  return matches.length > 3 ? matches.slice(0, 3) : matches;
 };
 
 module.exports = googleSearch;
